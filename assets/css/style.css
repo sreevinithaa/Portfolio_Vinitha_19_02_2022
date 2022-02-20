@@ -1,135 +1,174 @@
 .content {
-  background-image: url("../img/background.jpg");
-  background-image: no-repeat;
-
-  padding: 20px;
-}
-.headertab_style {
-  background-color: var(--themeColor_3);
-  color: var(--themeColor_4);
-  border-radius: var(--borderRadius);
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.header-style {
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(
-    90deg,
-    var(--themeColor_1) 0%,
-    var(--themeColor_2) 100%
-  );
-  text-align: center;
-  color: var(--themeColor_3);
-}
-.nav-main {
-  display: flex;
-
-  margin-top: 0px;
-}
-.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.nav li {
-  float: left;
-}
-.nav li a {
-  display: block;
-  color: var(--themeColor_2);
-
-  text-align: center;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  text-decoration: none;
-}
-.nav li a:hover {
-  background-color: var(--themeColor_4);
-  color: var(--themeColor_3);
-}
-
-.about-me-style {
-  display: flex;
-
-  justify-content: space-evenly;
-  flex-direction: column;
-  padding: 0.5rem;
-  background-color: var(--themeColor_4);
-  color: var(--themeColor_3);
-  border-radius: var(--borderRadius);
-  margin-bottom: 20px;
-}
-
-.intro_style {
-  flex-direction: column;
-  text-align: center;
-}
-.contact_style {
-  margin-left: 1.5rem;
-  padding: 1.5rem;
-}
-.contact_style ul {
-  list-style-type: none;
-  margin: 0;
-  margin-top: 1rem;
-  padding: 0;
-}
-.contact_style ul li img {
-  margin-right: 30px;
-  width: 35px;
-}
-
-.intro_style ul {
-  list-style-type: none;
-  margin: 0;
-  margin-top: 15px;
-  padding: 0;
-}
-.intro_style ul li {
-  display: inline;
-  margin: 20px;
-  vertical-align: middle;
-}
-.intro_style ul li img {
-  width: 1.5rem;
-}
-.imgclass {
-  width: 30%;
-  border-radius: 50%;
-}
-.contact-me-style {
-  display: flex;
-
-  justify-content: space-evenly;
-  flex-direction: column;
-  padding: 0.5rem;
-  background-color: var(--themeColor_4);
-  color: var(--themeColor_3);
-  border-radius: var(--borderRadius);
-  margin-bottom: 1rem;
-}
-.my-project-style {
-  display: flex;
-
-  justify-content: space-evenly;
-  flex-direction: column;
-  padding: 0.5rem;
-  background-color: var(--themeColor_4);
-  color: var(--themeColor_3);
-  border-radius: var(--borderRadius);
-  margin-bottom: 1rem;
-}
-.project_item {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 1rem;
-  padding: 1rem;
-}
-
-.project_body img {
-  width: 30%;
-  margin-right: 1rem;
-}
-
-@media screen and (max-width: 700px) {
-}
+    background-image: url("../img/preview16.jpg");
+    background-image: no-repeat;
+  
+    padding: 3rem;
+    
+  }
+  .headertab_style {
+    background-color: var(--themeColor_4);
+    color: var(--themeColor_3);
+    border-radius: var(--borderRadius);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .header-style {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+      90deg,
+      var(--themeColor_1) 0%,
+      var(--themeColor_2) 100%
+    );
+    text-align: center;
+    color: var(--themeColor_3);
+  }
+  .nav-main {
+    display: flex;
+  
+    margin-top: 0px;
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav li {
+    float: left;
+  }
+  .nav li a {
+    display: block;
+    color: var(--themeColor_2);
+  
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+  }
+  .nav li a:hover {
+    background-color: var(--themeColor_4);
+    color: var(--themeColor_3);
+  }
+  
+  .about-me-style {
+    display: flex;
+  
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: var(--themeColor_3);
+    color: var(--themeColor_4);
+    border-radius: var(--borderRadius);
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width:10 px  ;
+    border-color:var(--themeColor_4);
+    
+  }
+  .intro-button
+  {
+      text-decoration: none;
+      cursor: pointer;
+     
+   
+    padding-right: 1rem;
+    padding-left: 1rem;
+      font-size: .75rem;
+      border: none;
+      border-radius: 10px;
+      background-color: var(--themeColor_2);
+      color: var(--themeColor_3);
+      box-shadow: 2px 5px 7px var(--themeColor_3);
+  }
+  .intro-button:hover
+  {
+      background-color:var(--themeColor_1);
+  }
+  
+  .intro_style {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact_style {
+    margin-left: 1.5rem;
+    padding: 1.5rem;
+    
+  }
+  .contact_style ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  .contact_style ul li img {
+    margin-right: 30px;
+    width: 35px;
+  }
+  
+  .intro_style ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+  }
+  .intro_style ul li {
+    display: inline;
+    margin: 20px;
+    vertical-align: middle;
+  }
+  .intro_style ul li img {
+    width: 1.5rem;
+  }
+  .imgclass {
+    width: 30%;
+   
+  }
+  .contact-me-style {
+    display: flex;
+  
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: var(--themeColor_3);
+    color: var(--themeColor_4);
+    border-radius: var(--borderRadius);
+    margin-bottom: 1rem;
+    border-style: solid;
+    border-width:10 px  ;
+    border-color:var(--themeColor_4);
+  }
+  .my-project-style {
+    display: flex;
+  
+    justify-content:space-around;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: var(--themeColor_3);
+    color: var(--themeColor_4);
+    border-radius: var(--borderRadius);
+    margin-bottom: 1rem;
+    border-style: solid;
+    border-width:10 px  ;
+    border-color:var(--themeColor_4);
+  }
+  .project_item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  
+  .project_body img {
+    width: 90%;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-width:10 px  ;
+    border-color:var(--themeColor_4);
+  }
+  .project_body img:hover {
+      opacity: 0.5;
+    }
+  @media screen and (max-width: 700px) {
+  }
+  
