@@ -1,0 +1,32 @@
+body
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    margin-bottom: 5px;
+  }
+  h4 {
+    margin-top: 5px;
+  }
+  h5 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  h3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  footer {
+    display: flex;
+    background: linear-gradient(
+      90deg,
+      var(--themeColor_1) 0%,
+    var(--themeColor_2) 100%
+    );
+    justify-content: center;
+    color: aliceblue;
+  }
