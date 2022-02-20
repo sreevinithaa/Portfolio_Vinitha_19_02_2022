@@ -123,8 +123,7 @@
    
   }
   .contact-me-style {
-    display: flex;
-  
+    display: flex;  
     justify-content: space-evenly;
     flex-direction: column;
     padding: 0.5rem;
@@ -137,9 +136,7 @@
     border-color:var(--themeColor_4);
   }
   .my-project-style {
-    display: flex;
-  
-   
+    display: flex;   
     flex-direction: column;
     padding: 0.5rem;
     background-color: var(--themeColor_3);
@@ -151,16 +148,16 @@
     border-color:var(--themeColor_4);
   }
   .project_item {
-    display: flex;
-    justify-content: space-evenly;
+    
+    justify-content:space-around;
   }
-  .project_item a {
-    width: 50%;
+  .project_body {
+    display: flex;
   }
   
   .project_body img {
     width: 80%;
-    
+    margin-right: .5rem;
     cursor: pointer;
     border-radius: 10px;
     border-style: solid;
