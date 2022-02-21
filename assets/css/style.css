@@ -5,6 +5,7 @@
     padding: 3rem;
     
   }
+  /* common header tab style */
   .headertab_style {
     background-color: var(--themeColor_4);
     color: var(--themeColor_3);
@@ -12,8 +13,10 @@
     padding: 0.5rem;
     margin-bottom: 1rem;
   }
+  /* header style */
   .header-style {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background: linear-gradient(
       90deg,
@@ -23,9 +26,10 @@
     text-align: center;
     color: var(--themeColor_3);
   }
+  /* navigation style */
   .nav-main {
     display: flex;
-  
+    flex-wrap: wrap;
     margin-top: 0px;
   }
   .nav {
@@ -48,10 +52,10 @@
     background-color: var(--themeColor_4);
     color: var(--themeColor_3);
   }
-  
+  /* About me content style */
   .about-me-style {
     display: flex;
-  
+    
     justify-content: space-evenly;
     flex-direction: column;
     padding: 0.5rem;
@@ -87,7 +91,9 @@
   .intro_style {
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
   }
+  /* Contact me content syle */
   .contact_style {
     margin-left: 1.5rem;
     padding: 1.5rem;
@@ -123,7 +129,8 @@
    
   }
   .contact-me-style {
-    display: flex;  
+    display: flex; 
+    flex-wrap: wrap; 
     justify-content: space-evenly;
     flex-direction: column;
     padding: 0.5rem;
@@ -135,8 +142,10 @@
     border-width:10 px  ;
     border-color:var(--themeColor_4);
   }
+/* Project contet style */
   .my-project-style {
     display: flex;   
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 0.5rem;
     background-color: var(--themeColor_3);
@@ -154,7 +163,7 @@
   .project_body {
     display: flex;
   }
-  
+   /* setting image a border and curser point under project section */
   .project_body img {
     width: 80%;
     margin-right: .5rem;
@@ -164,9 +173,16 @@
     border-width:10 px  ;
     border-color:var(--themeColor_4);
   }
+  /* Blur effect when mouse over on image */
   .project_body img:hover {
       opacity: 0.5;
     }
+
+    /* Making the contact me icon smaller;it looks bigger for the small screen */
   @media screen and (max-width: 700px) {
+    .contact_style ul li img {
+      margin-right: 20px;
+      width: 25px;
+    }
   }
   
