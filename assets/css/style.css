@@ -142,6 +142,7 @@
     border-width:10 px  ;
     border-color:var(--themeColor_4);
   }
+
 /* Project contet style */
   .my-project-style {
     display: flex;   
@@ -156,12 +157,33 @@
     border-width:10 px  ;
     border-color:var(--themeColor_4);
   }
+  .panel
+  {
+    position:absolute;
+    bottom: 50px;
+    left: 10px;
+    display: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--themeColor_4);
+  }
   .project_item {
     
     justify-content:space-around;
   }
+  .project_item a{
+    
+   position: relative;
+   text-align: center;
+  }
+  .project_list
+  {
+    display: flex;
+    flex-direction: row;
+  }
   .project_body {
     display: flex;
+    flex-direction: column;
   }
    /* setting image a border and curser point under project section */
   .project_body img {
@@ -175,7 +197,7 @@
   }
   /* Blur effect when mouse over on image */
   .project_body img:hover {
-      opacity: 0.5;
+      opacity: 0.1;
     }
 
     /* Making the contact me icon smaller;it looks bigger for the small screen */
@@ -183,6 +205,16 @@
     .contact_style ul li img {
       margin-right: 20px;
       width: 25px;
+    }
+    .panel
+    {
+      position:absolute;
+      bottom: 10px;
+      left: 10px;
+      display: none;
+      font-weight: bold;
+      font-size: .5rem;
+      color: var(--themeColor_4);
     }
   }
   
