@@ -126,6 +126,8 @@
   }
   .imgclass {
     width: 30%;
+    border: 4px solid var(--themeColor_2);
+    border-radius: 10px;
    
   }
   .contact-me-style {
@@ -209,12 +211,16 @@
     .panel
     {
       position:absolute;
-      bottom: 10px;
-      left: 10px;
+      bottom:70px;
+      left: 70px;
       display: none;
       font-weight: bold;
-      font-size: .5rem;
+      font-size: 1rem;
       color: var(--themeColor_4);
+    }
+    .project_list
+    {
+      flex-direction: column;
     }
   }
   
