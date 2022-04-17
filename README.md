@@ -21,4 +21,4 @@ You can view my portfolio through this live link https://sreevinithaa.github.io/
 ## Extras
 
 
-![snippet](https://sreevinithaa.github.io/Portfolio_Vinitha_19_02_2022/img/screenshot.png)
+![snippet](https://sreevinithaa.github.io/Portfolio_Vinitha_19_02_2022/assets/img/screenshot.png)
