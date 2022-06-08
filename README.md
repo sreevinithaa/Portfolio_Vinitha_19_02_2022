@@ -27,7 +27,7 @@ You can get the code in the following link. https://github.com/sreevinithaa/Port
 
 ## Production link
 
-You can view my portfolio through this live link https://sreevinithaa.github.io/Portfolio_Vinitha_19_02_2022/Index.html
+You can view my portfolio through this live link https://sreevinithaa.github.io/Portfolio_Vinitha_19_02_2022/index.html
 
 ## Extras
 
