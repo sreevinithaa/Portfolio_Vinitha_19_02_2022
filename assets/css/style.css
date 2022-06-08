@@ -125,7 +125,7 @@
     width: 1.5rem;
   }
   .imgclass {
-    width: 30%;
+    height: 300px;
     border: 4px solid var(--themeColor_2);
     border-radius: 10px;
    
