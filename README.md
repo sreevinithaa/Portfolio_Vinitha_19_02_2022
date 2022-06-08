@@ -1,5 +1,15 @@
 # Professional Portfolio - Vinitha Gowtheepan
 
+## Table of Contents
+
+- [Description](#description)
+- [Update](#update)
+- [Contributing](#contributing)
+- [Image](#image-of-functionality)
+- [Repository](#repository)
+- [Production Link](#production-link)
+- [Extras](#extras)
+
 ## Description
 This website includes all the details about me and my experience.I made this website responsive and tried maximum to maintain cleancode.I have used semantic elements to support search engines.I tried to compressed the images to make it fast.
 
@@ -7,8 +17,9 @@ This website includes all the details about me and my experience.I made this web
 
 Update project details and styles.Used Jquery FadeIn and fadeToggle to show up technology when mouse over on project image.
 
-## Table of content
-About me,Project and Contact me
+## Contributing
+
+[Vinitha Gowtheepan](https://github.com/sreevinithaa)
 
 ## Repository
 
