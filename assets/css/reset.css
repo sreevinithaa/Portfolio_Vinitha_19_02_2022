@@ -6,23 +6,28 @@ body
 }
 h1 {
     margin-bottom: 5px;
+    font-size: 2vw;
   }
   h4 {
     margin-top: 5px;
+    font-size: 1.25vw;
   }
   h5 {
     margin-top: 2px;
     margin-bottom: 10px;
     font-weight: 300;
+    font-size: 1vw;
 
   }
   h2 {
     margin-top: 2px;
     margin-bottom: 2px;
+    font-size: 2vw;
   }
   h3 {
     margin-top: 2px;
     margin-bottom: 10px;
+    font-size: 1.5vw;
   }
   footer {
     display: flex;
