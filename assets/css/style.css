@@ -93,7 +93,7 @@
   
   .intro_style {
     flex-direction: column;
-    text-align: center;
+   text-align: center;
     flex-wrap: wrap;
   }
   /* Contact me content syle */
@@ -172,6 +172,13 @@
     font-size: 1vw;
     color: var(--themeColor_4);
   }
+  .about_content
+  {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: row;
+  }
   .project_item {
     
     justify-content:space-around;
@@ -234,5 +241,6 @@
     {
      justify-content: center;
     }
+   
   }
   
